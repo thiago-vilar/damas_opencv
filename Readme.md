@@ -1,10 +1,11 @@
-# desafio_damas
+# Desafio_Damas
 
 Neste projeto, foi desenvolvido um sistema de detecção para jogo de damas utilizando visão computacional clássica com OpenCV-Python. O objetivo é identificar o status do tabuleiro e acompanhar as movimentações das peças através de um vídeo. O uso dos marcadores ArUcos foram recomendados para a calibração da perspectiva da câmera independente do posicionamento da câmera. Por fim, o status do jogo foram impressos no terminal via matriz numpy.
 
 ## Codificação com base na tarefa 'Mini-projeto visao.pdf'
 
 ### Classes e Funções
+
 
 #### `ArucoDetector`
 - **Objetivo**: Detectar marcadores ArUco no quadro do vídeo.
