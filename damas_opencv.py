@@ -272,7 +272,7 @@ def main():
         #SAÍDA DO VÍDEO CROPPADO   
         frame_resized = cv2.resize(frame, (0, 0), fx=0.67, fy=0.67)
         height, width = frame_resized.shape[:2]
-        video_cropped = frame_resized[:, 100:width - 100]  
+        video_cropped = frame_resized[:, 110:width - 110]  
         cv2.imshow("video", video_cropped)
         
         #PROCESSAMENTO COM IMPRESSÃO NUMPY NO TERMINAL
